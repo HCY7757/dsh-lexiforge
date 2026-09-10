@@ -31,7 +31,7 @@
 | `demo-a-rikka` | A | 中二病·小鸟游六花 语气模仿 |
 | `demo-a-proofread` | A | 输出复查·纠错（无错逐字原样） |
 
-> 多合一语言包发布示例：**[dsh-langpack-demo](https://github.com/dsh-lexiforge/dsh-langpack-demo)**（https://github.com/HCY7757/dsh-langpack-demo） —— 一个仓库包含 4 个可分别安装的语言包（含 `langpacks.json` 索引）。
+> 多合一语言包发布示例：**[dsh-langpack-demo](https://github.com/HCY7757/dsh-langpack-demo)** —— 一个仓库包含 4 个可分别安装的语言包（含 `langpacks.json` 索引）。
 
 ---
 
@@ -102,7 +102,7 @@ knowledge_db: knowledge.db  # 含 B 时必填：由 `lexiforge knowledge` 生成
 - **C**：worker 线程执行字典与正则，零 token；可作“保险层”强制收尾
 - 多包可链式叠加；顺序在 UI 拖拽或 CLI `order` 调整；每个包可设置全局处理超时（默认 0.5s，UI 可调 0.1–600s，超时自动回退原文）
 
-详细示例与四合一发布模板见 [dsh-langpack-demo](https://github.com/dsh-lexiforge/dsh-langpack-demo)。
+详细示例与四合一发布模板见 [dsh-langpack-demo](https://github.com/HCY7757/dsh-langpack-demo)。
 
 ---
 
