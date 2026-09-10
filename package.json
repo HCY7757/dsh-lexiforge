@@ -1,6 +1,8 @@
 {
   "name": "dsh-lexiforge",
   "version": "1.0.0",
+  "description": "DSH LangPack framework plugin for DeepSeek Harness: installable ZIP language packs with A/B/C engines, composite pipelines, terminology retrieval, secure installer, GitHub marketplace and a built-in risk disclaimer gate.",
+  "keywords": ["dsh", "dsh-plugin", "deepseek-harness", "langpack", "language-pack", "cordis", "llm", "plugin"],
   "type": "module",
   "private": true,
   "main": "dist/index.js",

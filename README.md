@@ -1,6 +1,6 @@
 # dsh-LexiForge · DSH 语言模组框架
 
-> **LexiForge** — a pluggable **language-module (LangPack) framework** for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (DSH). It intercepts the model's reply stream and re-processes it through installable, ZIP-based language packs: style rewriting, terminology-aware retrieval, local rule post-processing, or a composed pipeline of all three. **DSH 官方生态的语言模组插件：配置驱动、安全优先、按需计算、零运维。**
+> **LexiForge** — a pluggable **language-module (LangPack) framework** for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (DSH). It intercepts the model's reply stream and re-processes it through installable, ZIP-based language packs: style rewriting, terminology-aware retrieval, local rule post-processing, or a composed pipeline of all three. **面向 DeepSeek Harness 的社区语言模组插件：配置驱动、安全优先、按需计算、零运维。**
 
 ---
 
