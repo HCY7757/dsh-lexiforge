@@ -1,0 +1,5 @@
+# dsh-LexiForge — DSH bundle patch
+# 挂载声明：把语言模组插件插入 Web profile 的配置树。
+- insert:
+    - id: dsh-LexiForge
+      name: dsh-lexiforge

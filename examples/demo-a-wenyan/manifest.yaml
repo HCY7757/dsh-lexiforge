@@ -1,0 +1,7 @@
+name: 文言风改写
+version: 1.0.0
+author: LexiForge Demo
+mode: A
+prompt_template: |
+  请将以下白话内容改写为文言文风格，保留原意，只输出改写结果：
+  {{text}}

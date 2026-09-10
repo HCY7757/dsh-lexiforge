@@ -1,0 +1,11 @@
+name: 古风称谓术语
+version: 1.0.0
+author: LexiForge Demo
+mode: B
+prompt_template: |
+  请将以下白话内容改写为古代风格，涉及人称与称谓时优先采用术语表。只输出改写结果。
+  术语表：
+  {{knowledge}}
+  原文：
+  {{text}}
+knowledge_db: knowledge.db

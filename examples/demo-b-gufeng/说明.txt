@@ -1,0 +1,3 @@
+模式 B 示例：RAG 术语包。
+knowledge.db 由 `lexiforge knowledge terms.csv terms.db` 生成（FTS5 trigram），
+插件检索 Top N 后注入 {{knowledge}}。本包安装时也会自动执行一次检索验证。
