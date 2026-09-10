@@ -9,11 +9,10 @@
 | | |
 |---|---|
 | 🧩 语言包即配置 | ZIP 承载、零可执行代码、格式白名单（`.yaml/.yml/.json/.db/.txt`），Zip Slip / 炸弹防护 |
-| 🅰️🅱️🅲 三引擎 | **A** LLM 整段改写（独立请求，不占主上下文）· **B** SQLite FTS5 术语库检索增强 · **C** 纯本地规则替换（零 token） |
+| A/B/C 三模式引擎 | **A** LLM 整段改写（独立请求，不占主上下文）· **B** SQLite FTS5 术语库检索增强 · **C** 纯本地规则替换（零 token） |
 | 🧬 复合模式 | 单包内 `pipeline: [B, A, C]` 编排：检索注入 → 一次改写 → 规则收尾，**全程只一次 LLM 请求** |
 | 🔗 链式多包 | 多个包按优先级依次加工同一回复（如 校对 → 文言 → 口头禅收尾） |
 | 🛡️ 安全 | 解压校验（穿越/重复/链接/加密/条目/大小）、manifest/dict/knowledge 结构校验、worker 线程隔离查询、超时回退原文、独立请求防递归 |
-| ⚖️ 免责闸门 | 首次使用整页灰化：须通读《第三方语言包免责声明》（恶意/病毒文件、Prompt 注入、隐私外流）并勾选同意后才解锁 |
 | 🎨 原生 UI | 融入 DSH 设置页（`settings.section`）：启停、拖拽排序、GitHub 市场、手动安装、超时(0.1–600s)、调试日志开关（相对路径） |
 | 🌐 市场分发 | 纯 GitHub 驱动：`topic:dsh-langpack` 搜索；单包仓库（根 `langpack.zip`）与 **四合一仓库**（`langpacks.json` 索引，逐包识别安装）双支持 |
 | 🧪 可观测 | 可选运行日志（开关在设置页），记录拦截/跳过原因与每段改写结果 |
@@ -32,7 +31,7 @@
 | `demo-a-rikka` | A | 中二病·小鸟游六花 语气模仿 |
 | `demo-a-proofread` | A | 输出复查·纠错（无错逐字原样） |
 
-> 四合一语言包发布示例：**[dsh-langpack-demo](https://github.com/dsh-lexiforge/dsh-langpack-demo)** —— 一个仓库包含 4 个可分别安装的语言包（含 `langpacks.json` 索引）。
+> 多合一语言包发布示例：**[dsh-langpack-demo](https://github.com/dsh-lexiforge/dsh-langpack-demo)** —— 一个仓库包含 4 个可分别安装的语言包（含 `langpacks.json` 索引）。
 
 ---
 
