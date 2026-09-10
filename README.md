@@ -14,14 +14,14 @@
 | 🔗 链式多包 | 多个包按优先级依次加工同一回复（如 校对 → 文言 → 口头禅收尾） |
 | 🛡️ 安全 | 解压校验（穿越/重复/链接/加密/条目/大小）、manifest/dict/knowledge 结构校验、worker 线程隔离查询、超时回退原文、独立请求防递归 |
 | 🎨 原生 UI | 融入 DSH 设置页（`settings.section`）：启停、拖拽排序、GitHub 市场、手动安装、超时(0.1–600s)、调试日志开关（相对路径） |
-| 🌐 市场分发 | 纯 GitHub 驱动：`topic:dsh-langpack` 搜索；单包仓库（根 `langpack.zip`）与 **四合一仓库**（`langpacks.json` 索引，逐包识别安装）双支持 |
+| 🌐 市场分发 | 纯 GitHub 驱动：`topic:dsh-langpack` 搜索；单包仓库（根 `langpack.zip`）与 **多合一仓库**（`langpacks.json` 索引，逐包识别安装）双支持 |
 | 🧪 可观测 | 可选运行日志（开关在设置页），记录拦截/跳过原因与每段改写结果 |
 
 ---
 
 ## 📦 演示语言包 / Demo packs
 
-`examples/` 下五个官方示例（源码 + zip），并单独发布四合一示例仓库：
+`examples/` 下五个官方示例（源码 + zip），并单独发布多合一示例仓库：
 
 | 包 | 模式 | 效果 |
 |---|---|---|
@@ -102,7 +102,7 @@ knowledge_db: knowledge.db  # 含 B 时必填：由 `lexiforge knowledge` 生成
 - **C**：worker 线程执行字典与正则，零 token；可作“保险层”强制收尾
 - 多包可链式叠加；顺序在 UI 拖拽或 CLI `order` 调整；每个包可设置全局处理超时（默认 0.5s，UI 可调 0.1–600s，超时自动回退原文）
 
-详细示例与四合一发布模板见 [dsh-langpack-demo](https://github.com/HCY7757/dsh-langpack-demo)。
+详细示例与多合一发布模板见 [dsh-langpack-demo](https://github.com/HCY7757/dsh-langpack-demo)。
 
 ---
 
