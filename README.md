@@ -31,7 +31,7 @@
 | `demo-a-rikka` | A | 中二病·小鸟游六花 语气模仿 |
 | `demo-a-proofread` | A | 输出复查·纠错（无错逐字原样） |
 
-> 多合一语言包发布示例：**[dsh-langpack-demo](https://github.com/dsh-lexiforge/dsh-langpack-demo)** —— 一个仓库包含 4 个可分别安装的语言包（含 `langpacks.json` 索引）。
+> 多合一语言包发布示例：**[dsh-langpack-demo](https://github.com/dsh-lexiforge/dsh-langpack-demo)**（https://github.com/HCY7757/dsh-langpack-demo） —— 一个仓库包含 4 个可分别安装的语言包（含 `langpacks.json` 索引）。
 
 ---
 
